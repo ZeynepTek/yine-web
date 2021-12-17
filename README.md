@@ -1,2 +1,2 @@
 # yine-web
-yine uygulamasının web tasarımı
+Yine uygulamasının web tasarımı
