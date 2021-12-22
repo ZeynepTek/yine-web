@@ -9,27 +9,40 @@
 </head>
 <body>
     <header>
-        <h1 class="logo"> Yine!</h1>
-        <img src="img/yine-logo.png" alt="" class="logo_img">
+        <h1 class="logo"><a href="index.html"> Yine!</a></h1>
+        <!-- buraya logo gelecek ,<img src="img/yine-logo.png" alt="" class="product_img">  --> 
+        
         <nav>
             <ul>
-                <li>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Connect</a>
-                </li>
+                
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">İletişim</a></li>
+                
             </ul>
         </nav>
     </header>
 
+    <section class="intro">
+    <div class="btn-group">
+        <a href="" class="btn btn-accent">burası ne</a>
+        </div>
+    
+        <div class="btn-group">
+            <p class="mb-0">buraya da bi text koyduk</p>
+            <a href="" class="btn btn-primary">bi buton</a>
+            <a href="" class="btn btn-primary">bi tsne daha</a>
+            <a href="" class="btn btn-primary">ve son</a>
+        </div>
+    </section>
     <main>
         <section class="intro">
-            <h2 class="section-title">Biz <span>fikirlerini belirtmenin</span> biraz daha kolay bir yolunu bulduk ve bu siteyi geliştirdik</h2>
+            <h2 class="section-title">Biz <span class="text-primary">fikirlerini belirtmenin</span> biraz daha kolay bir yolunu bulduk ve bu siteyi geliştirdik</h2>
         </section>
 
         <section class="about-us">
             <header class="about-us__intro">
-                <h2 class= "section-title">Buraya geçen haftanın oylamaları gelecek</h2>
+                <h2 class= "section-title-small">Buraya geçen haftanın oylamaları gelecek</h2>
             </header>
             <div class="about-us__body">
                 <p>geçen haftaki oylamanın sonuçları</p>
@@ -39,7 +52,7 @@
 
     <section class="connect"> 
         <header>
-            <h2 class ="section-title">buraya gelecek olan bu hafta oylaması</h2>
+            <h2 class ="section-title text-primary">buraya gelecek olan bu hafta oylaması</h2>
         </header>
         <header class="about-us__intro">
             <h2 class= "section-title">buraya ne gelecek</h2>
@@ -53,41 +66,46 @@
     </section>
     <section class="product-showcade">
         <header>
-            <h2 class="section-title">burası da boş</h2>
+            <h2 class="section-title text-primary">burası da boş</h2>
         </header>
         <div class="products">
             <div class="product">
                 <div class="product">
-                    <h3>burası sanırım bu hafta</h3>
-                    <img src="" alt="" class="product__img">
-                    <p>bu haftaki oylama sonuçları işte bu şekilde</p>
-                    <p>oylamak için lütfen devam edin</p>
+                    <img src="img/anasayfa.png" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">burası sanırım bu hafta</h3>
+                            <p>
+                                <strong> haftaki oylama </strong>sonuçları işte bu şekilde</p>
+                            <p class="fineprint">oylamak için lütfen devam edin</p>
+                        </div>
                 </div>
+
+            </div>
+
                 <div class="product">
-                    <h3>buraya hangi başlık gelecek</h3>
-                    <img src="" alt="" class="product__img">
-                    <p>buraya da bi resinm gelecek</p>
-                    <p>ve bir başka resim daha</p>
+                    <img src="img/chess-piece.png" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">buraya hangi başlık gelecek</h3>
+                            <p> <strong> da bi </strong>resinm gelecek</p>
+                            <p class="fineprint">ve bir başka resim daha</p>
+                        </div>
+
                 </div>
+
                 <div class="product">
-                    <h3>burada bi başlık var</h3>
-                    <img src="" alt="" class="product__img">
-                    <p>yine resim</p>
-                    <p>yine resim</p>
+                    <img src="img/user.png" alt="" class="product__img">
+                        <div class="product__content">
+                            <h3 class="product__title">burada bi başlık var</h3>
+                            <p> <strong> resim</strong> gelmeli</p>
+                            <p class="fineprint">yine resim</p>
+                    </div>
+
                 </div>
+            </div>
         </div>
     </section>
 
-    <div class="btn-group">
-    <a href="" class="btn btn-accent">burası ne</a>
-    </div>
-
-    <div class="btn-group">
-        <a href="" class="btn btn-primary">bi buton</a>
-        <a href="" class="btn btn-primary">bi tsne daha</a>
-        <a href="" class="btn btn-primary">ve son</a>
-    </div>
-
+   
     <footer>
         <ul class="footer-nav">
             <li>
@@ -103,6 +121,7 @@
             <li><a href=""></a></li>
             <li><a href=""></a></li>
         </ul>
+
     </footer>
 
     </main>
