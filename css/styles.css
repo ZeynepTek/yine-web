@@ -287,7 +287,7 @@ FONTS
   
   .product__title {
     color: var(--clr-primary);
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     margin-bottom: 0.5em;
   }
   
@@ -301,6 +301,11 @@ FONTS
     color: rgba(0, 0, 0, 0.85);
   }
   
+.product__img{
+  width: 60;
+  height:60
+}
+
   footer {
     background: var(--clr-accent-dark);
     padding: 3em 1em;
