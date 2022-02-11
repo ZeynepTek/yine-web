@@ -184,7 +184,27 @@ FONTS
     color: var(--clr-accent);
     text-decoration: underline;
   }
-  
+  /* slider kısmı */
+
+  .slider {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: auto;
+  }
+
+  .slider-content {
+    position: absolute;
+    width: 300%;
+    left: 0;
+  }
+
+  .slider-item {
+    width: 20%;
+    float: left;
+  }
+
   /* buttons */
   
   .btn-group {
